@@ -10,7 +10,11 @@ import {
 } from '@react-navigation/native';
 import * as React from 'react';
 import { Platform, StyleSheet, Text } from 'react-native';
-import { BottomNavigation, DarkTheme, DefaultTheme } from 'react-native-paper';
+import {
+  BottomNavigation,
+  MD3DarkTheme as DarkTheme,
+  MD3LightTheme as DefaultTheme,
+} from "react-native-paper";
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import type {
